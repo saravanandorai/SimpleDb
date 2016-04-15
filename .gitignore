@@ -1,0 +1,6 @@
+/SimpleDB/bin
+/SimpleDB/obj
+/.vs
+/packages
+/SimpleDB.TraceListener/bin
+/SimpleDB.TraceListener/obj
