@@ -20,3 +20,7 @@ Example Configuration in Application Config file [app.config / web.config] is gi
       </listeners>
     </trace>
   </system.diagnostics>
+
+This source code was created to be multi-tenant aware logger, hence I have added the TenantId attribute, however as the tenant context can be established in many ways, I have left it as empty. Any developer that wants to enable Multi-Tenant Logging features, can edit the code to point to thier exact source of tenant identifier and use. 
+
+Also, please share the comments / queries.
